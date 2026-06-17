@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="GLMS.Core/GLMS.Core.csproj" />
-  <Project Path="GLMS.Infrastructure/GLMS.Infrastructure.csproj" />
-  <Project Path="GLMS.Tests/GLMS.Tests.csproj" />
-  <Project Path="GLMS.Web/GLMS.Web.csproj" />
-</Solution>
