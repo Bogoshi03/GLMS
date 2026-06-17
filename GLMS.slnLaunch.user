@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\GLMS.Api\\GLMS.Api\\GLMS.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GLMS.Web\\GLMS.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

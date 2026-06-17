@@ -1,0 +1,57 @@
+﻿@model GLMS.Core.Entities.ServiceRequest
+
+<h1>Create Service Request</h1>
+
+<form asp-action="Create">
+
+    <div class="form-group">
+        <label asp-for="ContractId" class="control-label"></label>
+
+        <select asp-for="ContractId"
+                class="form-control"
+                asp-items="ViewBag.ContractId">
+            <option value="">-- Select Contract --</option>
+        </select>
+
+        <span asp-validation-for="ContractId"
+              class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Description</label>
+
+        <input asp-for="Description"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Cost USD</label>
+
+        <input asp-for="CostUSD"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Cost ZAR</label>
+
+        <input asp-for="CostZAR"
+               class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Status</label>
+
+        <select asp-for="Status"
+                class="form-control"
+                asp-items="Html.GetEnumSelectList<GLMS.Core.Enums.RequestStatus>()">
+        </select>
+    </div>
+
+    <br />
+
+    <button type="submit"
+            class="btn btn-primary">
+        Save
+    </button>
+
+</form>

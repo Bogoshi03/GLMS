@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="DatabaseMigration.sql" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="../GLMS.Api/GLMS.Api/GLMS.Api.csproj" />
+  <Project Path="GLMS.Core/GLMS.Core.csproj" />
+  <Project Path="GLMS.Infrastructure/GLMS.Infrastructure.csproj" />
+  <Project Path="GLMS.Tests/GLMS.Tests.csproj" />
+  <Project Path="GLMS.Web/GLMS.Web.csproj" />
+</Solution>
